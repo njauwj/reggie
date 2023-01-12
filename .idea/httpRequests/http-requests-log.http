@@ -1,0 +1,42 @@
+POST http://localhost:8080/employee
+Content-Type: application/json
+
+{
+  "username": "wj",
+  "name": "wj",
+  "phone": "123456789",
+  "sex": "3",
+  "idNumber": "321456"
+}
+
+<> 2022-11-11T030140.200.json
+
+###
+
+POST http://localhost:8080/employee/login
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "123456"
+}
+
+<> 2022-11-11T030121.200.json
+
+###
+
+POST http://localhost:8080/employee
+Content-Type: application/json
+
+{
+  "username": "wj",
+  "name": "wj",
+  "phone": "123456789",
+  "sex": "3",
+  "idNumber": "321456"
+}
+
+<> 2022-11-11T030005.200.txt
+
+###
+
