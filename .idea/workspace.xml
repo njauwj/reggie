@@ -221,7 +221,7 @@
       <workItem from="1673354486645" duration="11000" />
       <workItem from="1673441667288" duration="5564000" />
       <workItem from="1673525043250" duration="835000" />
-      <workItem from="1673527227913" duration="3294000" />
+      <workItem from="1673527227913" duration="3596000" />
     </task>
     <task id="LOCAL-00001" summary="第二次提交">
       <created>1668604316240</created>
@@ -286,7 +286,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673534961805</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="第二次提交">
+      <created>1673535174480</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1673535174480</updated>
+    </task>
+    <task id="LOCAL-00011" summary="第二次提交">
+      <created>1673535299196</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1673535299196</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -444,14 +458,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="408" y="0" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1668605148695" />
-    <state x="138" y="0" key="SettingsEditor" timestamp="1673533173709">
+    <state x="138" y="0" key="SettingsEditor" timestamp="1673535373143">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="138" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1673533173709" />
-    <state x="261" y="74" key="Vcs.Push.Dialog.v2" timestamp="1673534965859">
+    <state x="138" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1673535373143" />
+    <state x="261" y="74" key="Vcs.Push.Dialog.v2" timestamp="1673535457481">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="261" y="74" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1673534965859" />
+    <state x="261" y="74" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1673535457481" />
     <state x="555" y="114" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1668495151719">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
