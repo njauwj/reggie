@@ -25,7 +25,7 @@ import javax.servlet.annotation.WebListener;
 @ServletComponentScan
 public class ReggieApplication {
     public static void main(String[] args) {
-
+//kkk
         SpringApplication.run(ReggieApplication.class, args);
         log.info("项目启动成功");
     }
