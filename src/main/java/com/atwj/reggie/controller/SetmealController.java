@@ -114,4 +114,32 @@ public class SetmealController {
         List<SetmealDish> setmealDishList = setmealDishService.list(queryWrapper);
         return R.success(setmealDishList);
     }
+
+    /*
+    批量停售起售,0停用，1启用
+     */
+    @PostMapping("/status/{status}")
+    public R<String> setmealStatusByStatus(@PathVariable("status") Integer status,Long[] ids) {
+        Setmeal setmeal = new Setmeal();
+        if(status == 0) {
+            setmeal.setStatus(0);
+            for (Long id : ids) {
+                LambdaQueryWrapper<Setmeal> setmealLambdaQueryWrapper = new LambdaQueryWrapper<>();
+                setmealLambdaQueryWrapper.eq(Setmeal::getId, id);
+                setmeal.setId(id);
+                setMealService.updateById(setmeal);
+            }
+            return R.success("停售成功");
+        } else {
+            setmeal.setStatus(1);
+            for (Long id : ids) {
+                LambdaQueryWrapper<Setmeal> setmealLambdaQueryWrapper = new LambdaQueryWrapper<>();
+                setmealLambdaQueryWrapper.eq(Setmeal::getId, id);
+                setmeal.setId(id);
+                setMealService.updateById(setmeal);
+            }
+            return R.success("起售成功");
+        }
+    }
+
 }
